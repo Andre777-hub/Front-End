@@ -7,7 +7,7 @@
     <style>
         
         body{
-            width: 1500px;
+            width: 2000px;
             height: 620px;
             
         }
@@ -51,9 +51,22 @@
             height: 80%;
         }
         .foto_home{
+            height: 100%;
+            width: 100%;
             background-image: url("https://t.ctcdn.com.br/yk6XB2oC2VIEH-8Z4XOYj7_O28I=/1024x576/smart/i1103187.png");
+            background-repeat: no-repeat;
 
-
+        }
+        .lista{
+           color: white;
+           display: flex;
+           text-align: center;
+           justify-content: center;
+           padding: 0;
+           gap: 20px;
+        }
+        a{
+            color: white;
         }
 
     </style>
@@ -63,6 +76,39 @@
     <header>
         <h1>BARBEARIA DO HK</h1>
         <h5>Não existe vazio que não cortamos</h5>
+
+        <ul class="lista">
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">Serviços</a>
+                <ul>
+                    <li>Corte masculino</li>
+                    <ul>
+                        <li>cabelo</li>
+                        <li>barba</li>
+                        <li>bigode</li>
+                    </ul>
+
+                </ul>
+                <ul>
+                    <li>Corte Femenino</li>
+                    <ul>
+                        <li>Hidratação</li>
+                        <li>Pintura</li>
+                        <li>Corte</li>
+                    </ul>
+                </ul>
+            </li>
+            <li>
+                <a href="">Contato</a>
+            </li>
+            <li>
+                <a href="">Login</a>
+            </li>
+        </ul>
+
     </header>
 
     <main>
