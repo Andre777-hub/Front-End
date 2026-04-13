@@ -7,7 +7,7 @@
     <style>
         
         body{
-            width: 1890px;
+            width: 1500px;
             height: 620px;
             
         }
@@ -57,16 +57,22 @@
             background-repeat: no-repeat;
 
         }
-        .lista{
-           color: white;
+        .menu_principal{
+           color: gray;
            display: flex;
            text-align: center;
            justify-content: center;
            padding: 0;
            gap: 20px;
         }
-        a{
-            color: white;
+        
+        .dropdown:hover.menu{
+            display: block;
+
+        }
+        .menu_principal > li{
+            display: inline-block;
+            position: relative;
         }
 
     </style>
@@ -76,29 +82,42 @@
     <header>
         <h1>BARBEARIA DO HK</h1>
         <h5>Não existe vazio que não cortamos</h5>
-
-        <ul class="lista">
+        <ul class="menu_principal">
             <li>
                 <a href="">Home</a>
             </li>
             <li>
                 <a href="">Serviços</a>
-                <ul>
-                    <li>Corte masculino</li>
-                    <ul>
-                        <li>cabelo</li>
-                        <li>barba</li>
-                        <li>bigode</li>
-                    </ul>
-
-                </ul>
-                <ul>
-                    <li>Corte Femenino</li>
-                    <ul>
-                        <li>Hidratação</li>
-                        <li>Pintura</li>
-                        <li>Corte</li>
-                    </ul>
+                <ul class="dropdown">
+                    <li>Corte Maculino
+                        <ul class="menu">
+                            <li>
+                                Cabelo
+                            </li>
+                            <li>
+                                Barba
+                            </li>
+                            <li>
+                                Sombracelha
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Corte Feminino
+                        <ul class="menu">
+                            <li>
+                                Corte
+                            </li>
+                            <li>
+                                Hidratação
+                            </li>
+                            <li>
+                                Pintura
+                            </li>
+                            <li>
+                                Sombracelha
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
             <li>
@@ -108,7 +127,6 @@
                 <a href="">Login</a>
             </li>
         </ul>
-
     </header>
 
     <main>
