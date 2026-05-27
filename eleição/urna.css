@@ -1,1 +1,17 @@
+.topo-unico {
+    background-color: green;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
 
+}
+
+.botao{
+    width:4% ;
+    height:3% ;
+    background-color: yellow;
+}
