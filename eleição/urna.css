@@ -9,9 +9,29 @@
     gap: 20px;
 
 }
-
-.botao{
-    width:4% ;
-    height:3% ;
+.botao {
+    font-size: 2rem; 
+    padding: 20px 0;
+    cursor: pointer;
     background-color: yellow;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.botao[onclick="adicionar('0')"] {
+    grid-column: 2 / 3; 
+}
+
+.botao:hover {
+    background-color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 15px;
+    margin: 0;
+    justify-content: end;
+    max-width: 350px;
 }
