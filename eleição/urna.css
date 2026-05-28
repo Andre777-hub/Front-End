@@ -35,3 +35,12 @@
     justify-content: end;
     max-width: 350px;
 }
+.urna-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+.campo{
+    height:200px;
+    width: 1050px;
+}
