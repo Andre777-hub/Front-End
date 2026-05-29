@@ -1,4 +1,4 @@
-v.topo-unico {
+.topo-unico {
     background-color: green;
     text-align: center;
     justify-items: center;
@@ -31,6 +31,10 @@ v.topo-unico {
     background-color: red;
 }
 
+.botao4{
+    background-color: greenyellow;
+}
+
 .container{
     display: grid;
     grid-template-columns: repeat(3, 100px);
@@ -47,4 +51,6 @@ v.topo-unico {
 .campo{
     font-size: 100px;
     padding: 10px;
+    text-align: center;
+    width: 1850px;
 }
