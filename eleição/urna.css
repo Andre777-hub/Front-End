@@ -30,10 +30,17 @@
 
 .botao3 {
     background-color: red;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
 .botao4 {
     background-color: greenyellow;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+
 }
 
 .container {
