@@ -1,6 +1,6 @@
 body {
-    width: 300px;
-    height: 300px;
+    width: 1000px;
+    height: 600px;
     background-color: aquamarine;
 }
 
@@ -49,4 +49,10 @@ body {
 .foto{
     width: 80%;
     height: 80%;
+}
+.baixo{
+    margin-top: 90%;
+}
+.cima{
+    margin-top: -1%;
 }
