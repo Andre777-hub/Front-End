@@ -5,7 +5,7 @@ body {
 }
 
 .linha1.linha2.linha3 {
-    width: 100%;
+    width: 50%;
     height: 33%;
     background-color: pink;
     margin-top: 0.3%;
@@ -28,7 +28,7 @@ body {
 .linha34,
 .linha35 {
     height: 18%;
-    width: 50%;
+    width: 100%;
     background-color: greenyellow;
     margin-left: 1.5%;
     float: left;
