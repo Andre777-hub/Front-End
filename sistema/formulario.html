@@ -5,86 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            justify-content: center;
-            height: 900px;
-            width: 900px;
-            flex-direction: row;
-            gap: 50px;
-        }
-        .site{
-            width: 100%;
-            height: 100%;
-            background-color: white;
-            justify-content: center;
-            justify-self: center;
-            margin-left: 65%;
-        }
-        input{
-            background-color: rgb(203, 203, 233);  
-        }
-        select{
-            background-color: rgb(203, 203, 233);  
-        }
-        textarea{
-            width: 100%;
-            height: 60%;
-        }
-        .linha1{
-            width: 100%;
-            height: 10%;
-            
-        }
-        .linha2{
-            width: 100%;
-            height: 10%;
-            
-        }
-        .linha3{
-            width: 100%;
-            height: 10%;
-            
-        }
-        .linha4{
-            width: 100%;
-            height: 10%;
-            
-        }
-        .linha5{
-            width: 100%;
-            height: 10%;
-            
-        }
-        .linha6{
-            width: 100%;
-            height: 10%;
-            
-        }
-        .linha7{
-            width: 100%;
-            height: 10%;
-            
-        }
-        .linha8{
-            width: 100%;
-            height: 10%;
-            
-        }
-        .linha9{
-            width: 100%;
-            height: 20%;
-            
-        }
-        .moldura{
-            margin-left: 60%;
-            height: 20%;
-            width: 20%;
-        }
-        .texto1{
-            font-size: 30px;
-            margin-left: 80%;
-            margin-top: -10%;
-        }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #f2f2f2;
+    font-family: Arial,
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.moldura {
+    width: 120px;
+    margin: 0;
+}
+
+.texto1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.site {
+    width: 900px;
+    min-height: 900px;
+    background-color: white;
+    padding: 30px;
+    margin: 0;
+}
+
+input,
+select {
+    background-color: rgb(203, 203, 233);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.linha1,
+.linha2,
+.linha3,
+.linha4,
+.linha5,
+.linha6,
+.linha7,
+.linha8,
+.linha9 {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.linha9 {
+    display: block;
+}
+
+legend {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
     </style>
 </head>
 <body>
