@@ -6,7 +6,6 @@
     <title>Document</title>
     <style>
         body{
-            background-color: aliceblue;
             justify-content: center;
             height: 900px;
             width: 900px;
@@ -29,65 +28,75 @@
         }
         textarea{
             width: 100%;
-            height: 80%;
-        }
-        fieldset{
-            width: 80%;
-            height: 20%;
+            height: 60%;
         }
         .linha1{
             width: 100%;
             height: 10%;
-            margin-top: 5%;
+            
         }
         .linha2{
             width: 100%;
             height: 10%;
-            margin-top: 5%;
+            
         }
         .linha3{
             width: 100%;
             height: 10%;
-            margin-top: 5%;
+            
         }
         .linha4{
             width: 100%;
             height: 10%;
-            margin-top: 5%;
+            
         }
         .linha5{
             width: 100%;
             height: 10%;
-            margin-top: 5%;
+            
         }
         .linha6{
             width: 100%;
             height: 10%;
-            margin-top: 5%;
+            
         }
         .linha7{
             width: 100%;
             height: 10%;
-            margin-top: 5%;
+            
         }
         .linha8{
             width: 100%;
             height: 10%;
-            margin-top: 5%;
+            
         }
         .linha9{
             width: 100%;
             height: 20%;
-            margin-top: 5%;
+            
+        }
+        .moldura{
+            margin-left: 50%;
+            height: 20%;
+            width: 20%;
+        }
+        .texto1{
+            font-size: 35px;
+            margin-left: 80%;
+            margin-top: -5%;
         }
     </style>
 </head>
 <body>
     <header></header>
-
     <main>
+        <div>
+        <img class="moldura" src="imagem/UniEstrela.png">
+        </div>
+        <div class="texto1">
+         <b>Universidade Nova Estrela</b>
+        </div>
     <div class="site">
-        <fieldset>
             <legend>
                 DADOS PESSOAIS
             </legend>
@@ -111,8 +120,6 @@
             <input type="number" placeholder="Telefone Celular" minlength="5" maxlength="30" required>
             <input type="number" placeholder="Telefone Residencial" minlength="5" maxlength="30" required>
         </div>
-        </fieldset>
-        <fieldset>
             <legend>
                 DADOS DE ENDEREÇO
             </legend>
@@ -137,8 +144,6 @@
                 <option>PR</option>
             </select>
         </div>
-        </fieldset>
-        <fieldset>
             <legend>
                 DADOS ACADÊMICOS
             </legend>
@@ -161,8 +166,6 @@
             </select>
             <input type="text" placeholder="Escolaridade" minlength="5" maxlength="60" required>
         </div>
-        </fieldset>
-        <fieldset>
             <LEGend>
                 DADOS DO RESPONSÁVEL
             </LEGend>
@@ -172,11 +175,10 @@
             <input type="number" placeholder="CPF do responsável" minlength="5" maxlength="30" required>
         </div>
         <div class="linha9">
-            <p>Observações:</p>
+            Observações:
             <textarea></textarea>
         </div>
     </div>
-    </fieldset>
     </main>
     <footer></footer>
 </body>
